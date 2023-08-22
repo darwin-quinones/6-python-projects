@@ -15,8 +15,11 @@ def adivina_el_numero_computadora(x):
     
     while respuesta != 'c':
         # Generar prediccion 
-        
+        if(limite_inferior == limite_superior or limite_superior == 0 or limite_inferior > limite_superior):
+            limite_inferior = 1
+            limite_superior = x
         if limite_inferior != limite_superior:
+           
             prediccion = random.randint(limite_inferior, limite_superior)
         else:
             prediccion = limite_inferior # también podría ser el límite superior

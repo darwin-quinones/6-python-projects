@@ -76,7 +76,7 @@ def ahorcado():
             print('Esta letra no es válida.')
             
     # El juego llega aqui cuando se adivinan todas las 
-    # letras de la palabra o cuando se agotan las vidas del jufador
+    # letras de la palabra o cuando se agotan las vidas del jugador
     if vidas == 0:
         print(vidas_diccionario_visual[vidas])
         print(f'¡Ahorcado! Perdiste. Lo lamento mucho. La palabra era : {palabra}')

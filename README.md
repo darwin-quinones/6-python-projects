@@ -6,7 +6,6 @@ In this proyect I use algorithms in  some games
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
